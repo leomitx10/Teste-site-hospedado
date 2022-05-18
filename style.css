@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#19C2AA,#0C5C50);
+    color: white;
+    box-shadow:  0px 7px 7px rgba(0, 0, 0, 0.37);
+    min-width: 300px;
+}
+
+header p, h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: bold;
+}
+
+header h1{
+    font-size: 3em;
+    margin-bottom: 15px;
+    padding-top: 25px;
+}
+
+header p{
+    font-size: 1.5em;
+    padding-bottom: 25px;
+}
+
+body{
+    background-color: #19C2AA;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, #1DDBBF, transparent);
+    text-indent: 30px;
+}
+
+div.video{
+    background-color: #0C5C50;
+    position: relative;
+    padding-bottom: 59%;
+    margin-bottom: 30px;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: #0C5C50;
+    min-width: 300px;
+}
+
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
